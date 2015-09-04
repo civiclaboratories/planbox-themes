@@ -6,13 +6,13 @@ $(function() {
     $('.desc-label').addClass('hide');
 
     if (selected == 'a need') {
-      $('.need-desc').removeClass('hide');
+      $('.need-desc-label').removeClass('hide');
     }
     else if (selected == 'a deficiency') {
-      $('.deficiency-desc').removeClass('hide');
+      $('.deficiency-desc-label').removeClass('hide');
     }
     else if (selected == 'an idea') {
-      $('.idea-desc').removeClass('hide');
+      $('.idea-desc-label').removeClass('hide');
     }
 
   });
